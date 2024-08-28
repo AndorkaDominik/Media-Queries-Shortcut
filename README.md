@@ -59,3 +59,19 @@ The script inserts the following CSS media queries:
    - **Backspace**: Deletes 2 additional characters to adjust formatting.
 
 These actions ensure that the media queries are correctly inserted and formatted in your document.
+
+
+### 2. Configuring the Script to Start Automatically
+
+To ensure that your AutoHotkey script runs automatically every time you start your computer:
+
+1. **Create the Script as Described Above:**
+   - Follow the instructions in the previous section to create your AutoHotkey script.
+
+2. **Add the Script to the Startup Folder:**
+   - Press **Win + R** to open the **Run** dialog.
+   - Type `shell:startup` and press **Enter**. This opens the **Startup** folder.
+   - Copy your script file (e.g., `MyScript.ahk`) into this folder.
+
+After completing these steps, your script will automatically run every time you start your computer, ensuring that your custom shortcuts are always available.
+
